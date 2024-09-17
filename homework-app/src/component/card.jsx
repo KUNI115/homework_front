@@ -4,7 +4,7 @@ import axios from 'axios'
     const [people,SetUser]=useState([])
   const FetchData = async () => {
     try {
-      await axios.get('https://homework-back.vercel.app/');
+      const response = await axios.get('https://homework-back.vercel.app/');
       const data = await response.json();
       return data
     } catch (error) {

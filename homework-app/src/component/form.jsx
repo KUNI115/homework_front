@@ -10,7 +10,7 @@ function PersonalForm(){
     })
     const SendData = async (data) => {
         try {
-          const response = await axios.post('http://localhost:8000/endpoint',data);
+          const response = await axios.post('https://homework-back.vercel.app/endpoint',data);
           } catch (error) {
           console.error('データ送信エラー:', error);}}
     const postdataset=(e)=>{setUser((prev)=>({ ...prev, [e.target.name]:e.target.value})) }

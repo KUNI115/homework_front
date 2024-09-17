@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-  
+import axios from 'axios'  
   export default function PersonCard() {
     const [people,SetUser]=useState([])
   const FetchData = async () => {
     try {
-      const response = await fetch('https://homework-back.vercel.app/');
+      const response = await axios.get('https://homework-back.vercel.app/');
       const data = await response.json();
       return data
     } catch (error) {

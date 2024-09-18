@@ -5,8 +5,9 @@ import axios from 'axios'
   const FetchData = async () => {
     try {
       const response = await axios.get('https://homework-back.vercel.app');
-      const data = await response.json();
-      return data
+      //const data = await response.json();
+       const data = response.data
+       return data
     } catch (error) {
       console.error('データ取得エラー:', error);}}
   useEffect(() => {

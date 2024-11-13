@@ -4,7 +4,7 @@ import PersonCard from './component/card';
 import PersonalForm from './component/form';
 function App() {
   return (
-    <div className="bg-[dimgray] h-screen ">
+    <div className="bg-violet-900 h-screen ">
       <header className="App-header">
          <Example/>
       </header>

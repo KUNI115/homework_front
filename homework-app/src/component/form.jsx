@@ -26,7 +26,7 @@ function PersonalForm(){
     }
 
     return(
-      <div className="bg-gray-700  rounded-md my-5 ml-2 grid p-5  grid-cols-1 gap-x-6 gap-y-8  sm:grid-cols-6 md:p-2 flex justify-between ">
+      <div className="bg-white rounded-md my-5 ml-2 grid p-5  grid-cols-1 gap-x-6 gap-y-8  sm:grid-cols-6 md:p-2 flex justify-between mr-50  md:w-[50%]">
       <div className="  sm:col-span-4 ">
         <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
           Username
